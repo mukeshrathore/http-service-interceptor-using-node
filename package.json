@@ -1,0 +1,33 @@
+{
+  "name": "http-service-interceptor-using-node",
+  "version": "1.0.0",
+  "description": "traffic forward between different origin servers",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon server-interceptor"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mukeshrathore/http-service-interceptor-using-node.git"
+  },
+  "keywords": [
+    "node",
+    "angular",
+    "request-node-lib"
+  ],
+  "author": "mukesh rathore",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mukeshrathore/http-service-interceptor-using-node/issues"
+  },
+  "homepage": "https://github.com/mukeshrathore/http-service-interceptor-using-node#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "jshint": "^2.9.5",
+    "nodemon": "^1.17.5",
+    "request": "^2.87.0"
+  }
+}
